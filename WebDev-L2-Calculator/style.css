@@ -1,0 +1,76 @@
+.d-flex{
+  display: flex;
+  flex-direction: row;
+}
+.flex-column{
+  flex-direction: column;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.align-items-center{
+  align-items: center;
+}
+.btn{
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary{
+  background-color: #007bff;
+  color: white;
+}
+.btn-secondary{
+  background-color: #6c757d;
+  color: white;
+}
+.btn-secondary:hover{
+  background-color: #5a6268;
+}
+.btn-golden{
+  background-color: #ffc107;
+  color: #212529;
+}
+.btn-golden:hover{
+  background-color: #e0a800;
+}
+.btn-primary:hover{
+  background-color: #0056b3;
+}
+.w-100{
+  width: 100%;
+}
+.w-50{
+  width: 50%;
+}
+.w-25{
+  width: 25%;
+}
+.text-center{
+  text-align: center;
+}
+
+.vh-100{
+  height: 100vh;
+}
+.vh-50{
+  height: 50vh;
+}
+.vh-25{
+  height: 25vh;
+}
+.vh-75{
+  height: 75vh;
+}
+.vw-100{
+  width: 100vw;
+}
+.vw-75{
+  width: 75vw;
+}
+.vw-50{
+  width: 50vw;
+}
+.vw-25{
+  width: 25vw;
+}
