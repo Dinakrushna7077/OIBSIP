@@ -85,18 +85,11 @@
 {
   justify-content: space-between;
 }
-.justify-content-end
-{
-  justify-content: end;
-}
 .w-85
 {
   width: 94%;
 }
-.mx-1
-{
-  margin-right:10px;
-}
+
 .bg-light
 {
   background-color: lightgoldenrodyellow;
@@ -124,4 +117,8 @@
 .fs-large
 {
   font-size: 30px;
+}
+
+.gap-2{
+  gap:1.4rem;
 }
