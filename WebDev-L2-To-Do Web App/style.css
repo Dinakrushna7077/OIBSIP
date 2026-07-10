@@ -212,3 +212,9 @@ body{
   color:green;
   padding: 0 5px 0 5px;
 }
+.text-danger{
+  color: red;
+}
+.text-success{
+  color: green;
+}
