@@ -16,9 +16,10 @@ The application is modularized across three primary files:
 - `app.js`: Governs state management, dynamic DOM rendering, and user interactions.
 
 
-<h2>📷 Screenshot :</h2>
-<img src="../assets/todo1.png" alt="Calculator Interface Preview" width="350">
-<img src="../assets/todo2.png" alt="Calculator Interface Preview" width="350">
+## <h2>📷 Screenshot :</h2>
+<label>To Do List Preview</label>
+<img src="../assets/todo1.png" alt="To Do List 1 Interface Preview" width="1200">
+<img src="../assets/todo2.png" alt="To Do List 2 Interface Preview" width="1200">
 
 
 

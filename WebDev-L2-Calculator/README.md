@@ -16,8 +16,9 @@ The project consists of three core runtime files:
 ├── style.css    # Typography, button surfaces, and color accents
 └── app.js       # Main state routine & custom token evaluation engine
 
-<h2>📷 Screenshot :</h2>
-<img src="../assets/calcu.png" alt="Calculator Interface Preview" width="350">
+## <h2>📷 Screenshot :</h2>
+<label>Calculator </label>
+<img src="../assets/calcu.png" alt="Calculator Preview" width="1200">
 
 
 ## 👤 Author

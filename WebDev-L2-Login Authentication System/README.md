@@ -16,10 +16,11 @@ A clean, responsive, single-page authentication interface featuring seamlessly s
 - **jsSHA (v3.3.1):** Loaded via CDN (`sha256.min.js`) to enable secure, clientside SHA-256 password hashing.
 
 
-<h2>📷 Screenshot :</h2>
-<img src="../assets/login.png" alt="Calculator Interface Preview" width="350">
-<img src="../assets/reg.png" alt="Calculator Interface Preview" width="350">
-<img src="../assets/dash.png" alt="Calculator Interface Preview" width="350">
+## <h2>📷 Screenshot :</h2>
+<label>Login and Register</label>
+<img src="../assets/login.png" alt="Login Interface Preview" width="1200">
+<img src="../assets/reg.png" alt="Registration Interface Preview" width="1200">
+<img src="../assets/dash.png" alt="Dashboard Interface Preview" width="1200">
 
 
 

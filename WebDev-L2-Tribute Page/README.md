@@ -10,9 +10,10 @@ This project was built to satisfy a fundamental web development frontend design 
 *   **CSS3:** Standard, direct cascading style syntax engineered for large spacing, enhanced readability, and fluid element flow without bloated frameworks.
 
 
-<h2>📷 Screenshot :</h2>
-<img src="../assets/tribute1.png" alt="Calculator Interface Preview" width="350">
-<img src="../assets/tribute2.png" alt="Calculator Interface Preview" width="350">
+## <h2>📷 Screenshot :</h2>
+<label>Dinakrushna Das</label>
+<img src="../assets/tribute1.png" alt="Dinakrushna Das Preview" width="1200">
+<img src="../assets/tribute2.png" alt="Tribute Page Preview" width="1200">
 
 
 
