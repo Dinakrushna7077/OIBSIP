@@ -4,8 +4,14 @@ let addTask=(taskName,taskDescription,dt)=>{
   taskList.push({id:taskList.length+1,name:taskName,description:taskDescription,date:dt,status:"Pending"});
   printTaskList();
 }
-//addTask("dommy","dommy decription","12-03-2000");
-console.log(taskList);
+const counter=()=>{
+  let totalCounter=document.getElementById("total-count");
+  let completeCounter=document.getElementById("complete-count");
+  let pendingCounter=document.getElementById("pending-count");
+  totalCounter.innerText="Total : "+taskList.length;
+  completeCounter.innerText="Completed : "+taskList.filter(x=>x.status=="Completed").length;
+  pendingCounter.innerText="Pending : "+taskList.filter(x=>x.status=="Pending").length;
+}
 
 //Form validation and add new task when all fild have their values
 let formValidation=()=>{
@@ -26,6 +32,9 @@ let formValidation=()=>{
           msg.innerText="Task Created";
           msg.classList.remove("text-danger");
           msg.classList.add("text-success");
+          nameField.value="";
+          descriptionField.value="";
+          dateField.value="";
         }
         else{
           updateTask(updateId,nameField.value,descriptionField.value,dateField.value);
@@ -63,6 +72,7 @@ const printTaskList=()=>{
     if(task.status==="Completed")
       printCompletedList(task,index);
   });
+  counter();
 }
 //Pending List
 const printPendingList=(task,index)=>{
@@ -160,3 +170,4 @@ let toggleStatus=(id)=>{
     printTaskList();
   }
 }
+
