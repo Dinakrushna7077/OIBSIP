@@ -4,23 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Login Authentication</title>
+  <title>Login</title>
 </head>
 <body>
-  <div class="d-flex align-items-center justify-content-center w-100 vh-100">
-    <form action="#" class="d-flex flex-column w-25 gap-4 p-4 border-2 rounded-2 align-items-center">
+  <div class="d-flex align-items-center justify-content-center w-100 vh-100" id="login-container">
+    <form class="d-flex flex-column w-25 gap-4 p-4 border-2 rounded-2 align-items-center">
       <h4 class="heading text-center rounded-2 p-2 w-100" >Login Auth</h4>
       <div class="w-100">
-        <label for="email" class="d-block">Email Or Mobile Number</label>
-        <input type="text" id="email" placeholder="Enter mobile no. or email" class="inp">
+        <label for="email" class="d-block">User ID</label>
+        <input type="text" id="uid" placeholder="Enter mobile no. or email" class="inp">
       </div>
       <div class="w-100">
         <label for="pass" class="d-block">Password</label>
         <input type="password" id="pass" placeholder="Enter Password" class="inp">
       </div>
-      <span id="msg"></span>
-      <button class="btn btn-primary w-100">Login</button>
+      <span id="msg"> </span>
+      <button class="btn btn-primary w-100" onclick="LoginValidation(event)">Login</button>
+      <span  class="text-decoration-none a" onclick="toggleForm()">Don't Have an account! Register Now</span>
     </form>
   </div>
+
+  <div class="d-none align-items-center justify-content-center w-100 h-100 " id="register-container">
+    <form class="d-flex flex-column w-50 gap-2 p-4 border-2 rounded-2 align-items-center">
+      <h4 class="heading text-center rounded-2 p-2 w-100" >User Registration</h4>
+      <div class="w-100">
+        <label for="name" class="d-block">Full Name</label>
+        <input type="text" id="name" placeholder="Enter Full Name" class="inp">
+      </div>
+      <div class="w-100">
+        <label for="reg-mobile" class="d-block">Mobile Number</label>
+        <input type="text" id="reg-mobile" placeholder="Enter mobile number" class="inp">
+      </div>
+      <div class="w-100">
+        <label for="reg-gmail" class="d-block">Gmail ID</label>
+        <input type="text" id="reg-gmail" placeholder="Enter Gmail ID" class="inp">
+      </div>
+      <div class="w-100">
+        <label for="add" class="d-block">Address</label>
+        <textarea type="text" id="add" placeholder="Enter address" rows="2" class="inp"></textarea>
+      </div>
+      <div class="w-100">
+        <label for="reg-pass" class="d-block">Password</label>
+        <input type="password" id="reg-pass" placeholder="Enter Password" class="inp">
+      </div>
+      <div class="w-100">
+        <label for="confirmPass" class="d-block">Confirm Password</label>
+        <input type="password" id="confirmPass" placeholder="Confirm Password" class="inp">
+      </div>
+      <span id="reg-msg"> </span>
+      <button class="btn btn-primary w-100" onclick="registerValidation(event)">Register</button>
+      <span class="text-decoration-none a" onclick="toggleForm()">Login Now</span>
+    </form>
+  </div>
+  <script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/3.3.1/sha256.min.js"></script>
 </body>
 </html>
